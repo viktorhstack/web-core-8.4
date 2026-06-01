@@ -107,3 +107,21 @@ h2 {
 .hidden__brand.show{
     display: flex;
 }
+
+@media (max-width: 769px) {
+    .brands__section {
+        padding: 16px 24px;
+    }
+    .service__brands {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        max-width: 704px;
+     }
+    .brand__card {
+        width: 224px;
+    }
+    .tablet-hidden {
+        display: none;
+    }
+}

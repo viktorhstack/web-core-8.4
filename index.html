@@ -3,60 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css " />
+
     <script src="script.js" defer></script>
     <title>Service Brands</title>
   </head>
   <body>
     <div class="brands__section">
-     
-     
-    <header class="header__main">
-      <h2>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
-    </header>
-    <main>
-      <section class="service__brands">
-        <div class="brand__card">
-          <img src="images/lenovo.svg" alt="Lenovo" />
-        </div>
-        <div class="brand__card">
-          <img src="images/samsung.svg" alt="Samsung" />
-        </div>
-        <div class="brand__card">
-          <img src="images/apple.svg" alt="Apple" />
-        </div>
-        <div class="brand__card tablet-hidden">
-          <img src="images/VievSonic.svg" alt="VievSonic" />
-        </div>
-        <div class="brand__card">
-          <img src="images/Bosch.svg" alt="Bosch" />
-        </div>
-        <div class="brand__card">
-          <img src="images/HP.svg" alt="HP" />
-        </div>
-        <div class="brand__card">
-          <img src="images/Accer.svg" alt="Accer" />
-        </div>
-        <div class="brand__card tablet-hidden">
-          <img src="images/SONY.svg" alt="SONY" />
-        </div>
-          
-        <div class="brand__card hidden__brand">
-          <img src="images/lenovo.svg" alt="Lenovo" />
-        </div>
-        <div class="brand__card hidden__brand">
-          <img src="images/samsung.svg" alt="Samsung" />
-        </div>
-        <div class="brand__card hidden__brand">
-          <img src="images/apple.svg" alt="Apple" />
-        </div>
+      <header class="header__main">
+        <h2>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
+      </header>
+      <main>
+        <section class="service__brands swiper">
+          <div class="swiper-wrapper">
+            <div class="brand__card swiper-slide">
+              <img src="images/lenovo.svg" alt="Lenovo" />
+            </div>
+            <div class="brand__card swiper-slide">
+              <img src="images/samsung.svg" alt="Samsung" />
+            </div>
+            <div class="brand__card swiper-slide">
+              <img src="images/apple.svg" alt="Apple" />
+            </div>
+            <div class="brand__card swiper-slide tablet-hidden">
+              <img src="images/VievSonic.svg" alt="VievSonic" />
+            </div>
+            <div class="brand__card swiper-slide">
+              <img src="images/Bosch.svg" alt="Bosch" />
+            </div>
+            <div class="brand__card swiper-slide">
+              <img src="images/HP.svg" alt="HP" />
+            </div>
+            <div class="brand__card swiper-slide">
+              <img src="images/Accer.svg" alt="Accer" />
+            </div>
+            <div class="brand__card swiper-slide tablet-hidden">
+              <img src="images/SONY.svg" alt="SONY" />
+            </div>
+            <div class="brand__card hidden__brand swiper-slide">
+              <img src="images/lenovo.svg" alt="Lenovo" />
+            </div>
+            <div class="brand__card hidden__brand swiper-slide">
+              <img src="images/samsung.svg" alt="Samsung" />
+            </div>
+            <div class="brand__card hidden__brand swiper-slide">
+              <img src="images/apple.svg" alt="Apple" />
+            </div>
+          </div>
 
-       
-      
-          </section>
-       <button class="show__more-btn">Показать все</button>
+          <div class="swiper-pagination"></div>
+        </section>
 
-       
-    </main>
+        <button class="show__more-btn">Показать все</button>
+      </main>
+    </div>
   </body>
 </html>

@@ -10,7 +10,7 @@ Responsive service brands section created with HTML, CSS and JavaScript.
 - Responsive design
 
 ## Demo
-[Live Demo](https://github.com/viktorhstack/web-core-8.4.git/)
+[Live Demo](t https://viktorhstack.github.io/web-core-8.4/)
 ## Author
 
 Viktor Khegai

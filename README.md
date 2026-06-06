@@ -9,6 +9,8 @@ Responsive service brands section created with HTML, CSS and JavaScript.
 - Show more / hide button
 - Responsive design
 
+## Demo
+[Live Demo](https://github.com/viktorhstack/web-core-8.4.git/)
 ## Author
 
 Viktor Khegai
